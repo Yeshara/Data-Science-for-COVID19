@@ -14,7 +14,7 @@ import googlemaps
 
 #reads the original csv file
 df=pd.read_csv('TestingCentres.csv', sep=';')
-gmaps_key=googlemaps.Client(key='AIzaSyBg4C052uLJh8kCaYvfeW3fbe5AdoZ_td0')
+gmaps_key=googlemaps.Client(key='<Google Maps API KEY>')
 
 
 
